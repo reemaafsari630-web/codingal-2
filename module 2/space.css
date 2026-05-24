@@ -1,0 +1,39 @@
+body {
+    background-color: blueviolet;
+    background-image: linear-gradient(blue,pink,orange);
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial,sans-serif;
+}
+ .page-shower { 
+    background-image:linear-gradient(blue,yellow,red);
+    border-radius: 16px;
+    text-align: center;
+    color:aquamarine;
+ }
+ .face-part {
+    background-color: blanchedalmond;
+    border-radius: 16px;
+    color:aquamarine;
+ }
+ .page-shower h2 {
+    color:aqua;
+ }
+ .face-part h2 {
+    color:aliceblue;
+ }
+ .star {
+    width: 60px;
+    height: 70px;
+    background-color: beige;
+    border-radius: 50%;
+    animation:motion 3s infinite alternate;
+ }
+ @keyframes motion {
+    from {background-color: blueviolet;}
+    to {background-color: palevioletred;}
+ }
+ .header-text {
+    text-align: center;
+    color: blanchedalmond;
+ }
